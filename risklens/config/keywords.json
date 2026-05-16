@@ -20,7 +20,7 @@
         ".su", ".tu", ".jk"
     ],
     "suspicious_patterns":[
-        "@", "-login", "\\", "//", "-secure", "-verify", "-account", "-update",
+        "@", "-login", "\\", "-secure", "-verify", "-account", "-update",
         "-support", "-banking", "-paypal", "-aib", "-amazon", "-apple", 
         "-microsoft", "-google", "-revolut", "-boi"
     ],

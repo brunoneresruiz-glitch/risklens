@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RiskLens — Investigation Report</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #E5D0B1;
+      color: #1A1006;
+      font-family: 'IBM Plex Mono', monospace;
+      padding: 3rem 2rem;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      padding-bottom: 1rem;
+      border-bottom: 3px solid #1A1006;
+      margin-bottom: 2rem;
+    }
+
+    .logo {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: #1A1006;
+      letter-spacing: 0.02em;
+    }
+
+    .header-sub {
+      font-size: 0.72rem;
+      color: #6B5744;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    .box {
+      border: 2px solid #1A1006;
+      padding: 1.5rem;
+      margin-bottom: 1.2rem;
+      background: #EDD9B8;
+    }
+
+    .box-label {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #6B5744;
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid #1A1006;
+    }
+
+    .info-row {
+      display: grid;
+      grid-template-columns: 140px 1fr;
+      margin-bottom: 0.6rem;
+      font-size: 0.82rem;
+      line-height: 1.5;
+    }
+
+    .info-key {
+      color: #6B5744;
+      text-transform: uppercase;
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
+      padding-top: 1px;
+    }
+
+    .info-val {
+      color: #1A1006;
+      word-break: break-all;
+    }
+
+    .verdict-box {
+      border: 2px solid #1A1006;
+      padding: 1.2rem 1.5rem;
+      margin-bottom: 1.2rem;
+      background: #E0B44B;
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    .verdict-label {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #1A1006;
+      opacity: 0.7;
+    }
+
+    .verdict-value {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: #1A1006;
+      letter-spacing: 0.05em;
+    }
+
+    .signal-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      margin-bottom: 0.8rem;
+    }
+
+    .sev-tag {
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      padding: 3px 8px;
+      flex-shrink: 0;
+      border: 1px solid #1A1006;
+      font-family: 'IBM Plex Mono', monospace;
+    }
+
+    .signal-text {
+      font-size: 0.82rem;
+      color: #1A1006;
+      padding-top: 2px;
+      line-height: 1.5;
+    }
+
+    .clean-msg {
+      font-size: 0.85rem;
+      color: #49714B;
+      font-weight: 500;
+    }
+
+    .footer {
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 2px solid #1A1006;
+      font-size: 0.7rem;
+      color: #6B5744;
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="header">
+      <div class="logo">RiskLens</div>
+      <div class="header-sub">Investigation Report</div>
+    </div>
+
+    <div class="box">
+      <div class="box-label">URL Analysis</div>
+      <div class="info-row">
+        <span class="info-key">URL</span>
+        <span class="info-val">http://reset-password.com/account</span>
+      </div>
+      <div class="info-row">
+        <span class="info-key">Hash SHA-256</span>
+        <span class="info-val">e4d0fc518898ac1ebfd4a557de86f60b69d0b6ba4d8c93f84a221d4f23f89e9d</span>
+      </div>
+      <div class="info-row">
+        <span class="info-key">Domain</span>
+        <span class="info-val">reset-password.com</span>
+      </div>
+      <div class="info-row">
+        <span class="info-key">HTTPS</span>
+        <span class="info-val" style="color:#A6452E; font-weight:700;">NO</span>
+      </div>
+      <div class="info-row">
+        <span class="info-key">URL Length</span>
+        <span class="info-val">33 chars</span>
+      </div>
+    </div>
+
+    <div class="verdict-box">
+      <div>
+        <div class="verdict-label">Verdict</div>
+        <div class="verdict-value">MEDIUM RISK</div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="box-label">Signals Detected</div>
+      
+        <div class="signal-row">
+            <span class="sev-tag" style="background:#E0B44B; color:#1A1006;">MED</span>
+            <span class="signal-text">Connection is not encrypted (HTTP instead of HTTPS)</span>
+        </div>
+        <div class="signal-row">
+            <span class="sev-tag" style="background:#E0B44B; color:#1A1006;">MED</span>
+            <span class="signal-text">Phishing-related keywords found in URL</span>
+        </div>
+    </div>
+
+    <div class="footer">
+      <span>RiskLens · Rule-based URL Risk Analysis</span>
+      <span>2026-05-16 11:58:55</span>
+    </div>
+
+  </div>
+</body>
+</html>

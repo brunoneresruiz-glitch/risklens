@@ -8,6 +8,7 @@ from rich import box
 from risklens.analyzer import analyze_url
 from risklens.scorer import evaluate
 from risklens.logger import log_result
+from risklens.reporter import generate_report
 
 
 console = Console()
@@ -30,6 +31,7 @@ def run(url: str) -> None:
     findings   = analyze_url(url)
     evaluation = evaluate(findings)
     log_result(findings, evaluation)
+    generate_report(findings, evaluation)
 
     _print_result(findings, evaluation)
 

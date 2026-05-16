@@ -139,5 +139,269 @@
       }
     ],
     "is_https": true
+  },
+  {
+    "analysed_at": "2026-05-16T11:21:53+01:00",
+    "url": "https://secure.aib.ru/login",
+    "url_hash": "de15d93642ff321f519881cb772e4efc681abc151f56330ae9f34c57eeb645c1",
+    "domain": "secure.aib.ru",
+    "verdict": "HIGH RISK",
+    "signals": [
+      "suspicious_tld",
+      "suspicious_keywords",
+      "url_obfuscation",
+      "brand_impersonation"
+    ],
+    "signal_details": [
+      {
+        "id": "suspicious_tld",
+        "severity": "high",
+        "description": "Domain uses a high-risk top-level domain"
+      },
+      {
+        "id": "suspicious_keywords",
+        "severity": "medium",
+        "description": "Phishing-related keywords found in URL"
+      },
+      {
+        "id": "url_obfuscation",
+        "severity": "high",
+        "description": "Obfuscation pattern detected (e.g. @ symbol or double slashes)"
+      },
+      {
+        "id": "brand_impersonation",
+        "severity": "high",
+        "description": "URL appears to imitate a known trusted brand"
+      }
+    ],
+    "is_https": true
+  },
+  {
+    "analysed_at": "2026-05-16T11:26:41+01:00",
+    "url": "https://secure.aib.ru/login",
+    "url_hash": "de15d93642ff321f519881cb772e4efc681abc151f56330ae9f34c57eeb645c1",
+    "domain": "secure.aib.ru",
+    "verdict": "HIGH RISK",
+    "signals": [
+      "suspicious_tld",
+      "suspicious_keywords",
+      "url_obfuscation",
+      "brand_impersonation"
+    ],
+    "signal_details": [
+      {
+        "id": "suspicious_tld",
+        "severity": "high",
+        "description": "Domain uses a high-risk top-level domain"
+      },
+      {
+        "id": "suspicious_keywords",
+        "severity": "medium",
+        "description": "Phishing-related keywords found in URL"
+      },
+      {
+        "id": "url_obfuscation",
+        "severity": "high",
+        "description": "Obfuscation pattern detected (e.g. @ symbol or double slashes)"
+      },
+      {
+        "id": "brand_impersonation",
+        "severity": "high",
+        "description": "URL appears to imitate a known trusted brand"
+      }
+    ],
+    "is_https": true
+  },
+  {
+    "analysed_at": "2026-05-16T11:34:11+01:00",
+    "url": "https://secure.aib.ru/login",
+    "url_hash": "de15d93642ff321f519881cb772e4efc681abc151f56330ae9f34c57eeb645c1",
+    "domain": "secure.aib.ru",
+    "verdict": "HIGH RISK",
+    "signals": [
+      "suspicious_tld",
+      "suspicious_keywords",
+      "url_obfuscation",
+      "brand_impersonation"
+    ],
+    "signal_details": [
+      {
+        "id": "suspicious_tld",
+        "severity": "high",
+        "description": "Domain uses a high-risk top-level domain"
+      },
+      {
+        "id": "suspicious_keywords",
+        "severity": "medium",
+        "description": "Phishing-related keywords found in URL"
+      },
+      {
+        "id": "url_obfuscation",
+        "severity": "high",
+        "description": "Obfuscation pattern detected (e.g. @ symbol or double slashes)"
+      },
+      {
+        "id": "brand_impersonation",
+        "severity": "high",
+        "description": "URL appears to imitate a known trusted brand"
+      }
+    ],
+    "is_https": true
+  },
+  {
+    "analysed_at": "2026-05-16T11:35:58+01:00",
+    "url": "https://linkedin.com/in/brunoneresruiz",
+    "url_hash": "3bc9f5020fc4ee77ddf8b3717d1a1375df8fec002b7bc42a743cd0d90aca4f25",
+    "domain": "linkedin.com",
+    "verdict": "HIGH RISK",
+    "signals": [
+      "url_obfuscation"
+    ],
+    "signal_details": [
+      {
+        "id": "url_obfuscation",
+        "severity": "high",
+        "description": "Obfuscation pattern detected (e.g. @ symbol or double slashes)"
+      }
+    ],
+    "is_https": true
+  },
+  {
+    "analysed_at": "2026-05-16T11:38:58+01:00",
+    "url": "https://linkedin.com/in/brunoneresruiz",
+    "url_hash": "3bc9f5020fc4ee77ddf8b3717d1a1375df8fec002b7bc42a743cd0d90aca4f25",
+    "domain": "linkedin.com",
+    "verdict": "SAFE",
+    "signals": [],
+    "signal_details": [],
+    "is_https": true
+  },
+  {
+    "analysed_at": "2026-05-16T11:44:45+01:00",
+    "url": "https://linkedin.com/in/brunoneresruiz",
+    "url_hash": "3bc9f5020fc4ee77ddf8b3717d1a1375df8fec002b7bc42a743cd0d90aca4f25",
+    "domain": "linkedin.com",
+    "verdict": "SAFE",
+    "signals": [],
+    "signal_details": [],
+    "is_https": true
+  },
+  {
+    "analysed_at": "2026-05-16T11:52:31+01:00",
+    "url": "https://linkedin.com/in/brunoneresruiz",
+    "url_hash": "3bc9f5020fc4ee77ddf8b3717d1a1375df8fec002b7bc42a743cd0d90aca4f25",
+    "domain": "linkedin.com",
+    "verdict": "SAFE",
+    "signals": [],
+    "signal_details": [],
+    "is_https": true
+  },
+  {
+    "analysed_at": "2026-05-16T11:54:29+01:00",
+    "url": "https://microsoft.com-log-in",
+    "url_hash": "cdc728b49a2bcfe2874e5caa990bcfd760ccc2c55aea93969c6e4669caee92d6",
+    "domain": "microsoft.com-log-in",
+    "verdict": "HIGH RISK",
+    "signals": [
+      "suspicious_keywords",
+      "brand_impersonation"
+    ],
+    "signal_details": [
+      {
+        "id": "suspicious_keywords",
+        "severity": "medium",
+        "description": "Phishing-related keywords found in URL"
+      },
+      {
+        "id": "brand_impersonation",
+        "severity": "high",
+        "description": "URL appears to imitate a known trusted brand"
+      }
+    ],
+    "is_https": true
+  },
+  {
+    "analysed_at": "2026-05-16T11:55:54+01:00",
+    "url": "https://aib.ieaccount",
+    "url_hash": "959d6cdc78ef0181b887a235fb5155ee0db980ebef29db922724bf82733f491c",
+    "domain": "aib.ieaccount",
+    "verdict": "HIGH RISK",
+    "signals": [
+      "suspicious_keywords",
+      "brand_impersonation"
+    ],
+    "signal_details": [
+      {
+        "id": "suspicious_keywords",
+        "severity": "medium",
+        "description": "Phishing-related keywords found in URL"
+      },
+      {
+        "id": "brand_impersonation",
+        "severity": "high",
+        "description": "URL appears to imitate a known trusted brand"
+      }
+    ],
+    "is_https": true
+  },
+  {
+    "analysed_at": "2026-05-16T11:57:02+01:00",
+    "url": "http://amazon-support.com/help",
+    "url_hash": "72f5f4debc2719cc99dea0d72af4b654458081dc82f0481d1c12e23610021cc0",
+    "domain": "amazon-support.com",
+    "verdict": "HIGH RISK",
+    "signals": [
+      "no_https",
+      "suspicious_keywords",
+      "url_obfuscation",
+      "brand_impersonation"
+    ],
+    "signal_details": [
+      {
+        "id": "no_https",
+        "severity": "medium",
+        "description": "Connection is not encrypted (HTTP instead of HTTPS)"
+      },
+      {
+        "id": "suspicious_keywords",
+        "severity": "medium",
+        "description": "Phishing-related keywords found in URL"
+      },
+      {
+        "id": "url_obfuscation",
+        "severity": "high",
+        "description": "Obfuscation pattern detected (e.g. @ symbol or double slashes)"
+      },
+      {
+        "id": "brand_impersonation",
+        "severity": "high",
+        "description": "URL appears to imitate a known trusted brand"
+      }
+    ],
+    "is_https": false
+  },
+  {
+    "analysed_at": "2026-05-16T11:58:54+01:00",
+    "url": "http://reset-password.com/account",
+    "url_hash": "e4d0fc518898ac1ebfd4a557de86f60b69d0b6ba4d8c93f84a221d4f23f89e9d",
+    "domain": "reset-password.com",
+    "verdict": "MEDIUM RISK",
+    "signals": [
+      "no_https",
+      "suspicious_keywords"
+    ],
+    "signal_details": [
+      {
+        "id": "no_https",
+        "severity": "medium",
+        "description": "Connection is not encrypted (HTTP instead of HTTPS)"
+      },
+      {
+        "id": "suspicious_keywords",
+        "severity": "medium",
+        "description": "Phishing-related keywords found in URL"
+      }
+    ],
+    "is_https": false
   }
 ]
