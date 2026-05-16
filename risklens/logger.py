@@ -13,6 +13,7 @@ def log_result(findings: dict, evaluation: dict) -> None:
     record = {
         "analysed_at": datetime.now(timezone.utc).astimezone().isoformat(timespec="seconds"),
         "url": findings["url"],
+        "url_hash": findings["url_hash"],
         "domain": findings["domain"],
         "verdict": evaluation["verdict"],
         "signals": [s["id"] for s in evaluation["signals"]],

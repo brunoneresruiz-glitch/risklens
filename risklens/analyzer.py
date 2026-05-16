@@ -1,5 +1,6 @@
 import json 
 import re
+import hashlib
 from pathlib import Path 
 from urllib.parse import urlparse 
 
@@ -49,6 +50,7 @@ def analyze_url(url: str) -> dict:
 
     findings = {
         "url":url,
+        "url_hash": hashlib.sha256(url.encode()).hexdigest(),
         "scheme": parsed.scheme,
         "domain": domain,
         "path": parsed.path, 

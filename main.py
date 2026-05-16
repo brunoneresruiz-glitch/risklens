@@ -44,6 +44,7 @@ def _print_result(findings: dict, evaluation: dict) -> None:
     info.add_column(style="dim", width=10)
     info.add_column()
     info.add_row("URL",    findings["url"])
+    info.add_row("Hash", findings["url_hash"][:16] + "...")
     info.add_row("Domain", findings["domain"])
     info.add_row("HTTPS",  "Yes" if findings["is_https"] else "[red]No[/red]")
     console.print(info)

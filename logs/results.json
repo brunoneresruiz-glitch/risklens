@@ -33,5 +33,111 @@
       }
     ],
     "is_https": true
+  },
+  {
+    "analysed_at": "2026-05-16T11:04:14+01:00",
+    "url": "https://secure.aib.ru/login",
+    "domain": "secure.aib.ru",
+    "verdict": "HIGH RISK",
+    "signals": [
+      "suspicious_tld",
+      "suspicious_keywords",
+      "url_obfuscation",
+      "brand_impersonation"
+    ],
+    "signal_details": [
+      {
+        "id": "suspicious_tld",
+        "severity": "high",
+        "description": "Domain uses a high-risk top-level domain"
+      },
+      {
+        "id": "suspicious_keywords",
+        "severity": "medium",
+        "description": "Phishing-related keywords found in URL"
+      },
+      {
+        "id": "url_obfuscation",
+        "severity": "high",
+        "description": "Obfuscation pattern detected (e.g. @ symbol or double slashes)"
+      },
+      {
+        "id": "brand_impersonation",
+        "severity": "high",
+        "description": "URL appears to imitate a known trusted brand"
+      }
+    ],
+    "is_https": true
+  },
+  {
+    "analysed_at": "2026-05-16T11:07:42+01:00",
+    "url": "https://secure.aib.ru/login",
+    "domain": "secure.aib.ru",
+    "verdict": "HIGH RISK",
+    "signals": [
+      "suspicious_tld",
+      "suspicious_keywords",
+      "url_obfuscation",
+      "brand_impersonation"
+    ],
+    "signal_details": [
+      {
+        "id": "suspicious_tld",
+        "severity": "high",
+        "description": "Domain uses a high-risk top-level domain"
+      },
+      {
+        "id": "suspicious_keywords",
+        "severity": "medium",
+        "description": "Phishing-related keywords found in URL"
+      },
+      {
+        "id": "url_obfuscation",
+        "severity": "high",
+        "description": "Obfuscation pattern detected (e.g. @ symbol or double slashes)"
+      },
+      {
+        "id": "brand_impersonation",
+        "severity": "high",
+        "description": "URL appears to imitate a known trusted brand"
+      }
+    ],
+    "is_https": true
+  },
+  {
+    "analysed_at": "2026-05-16T11:09:26+01:00",
+    "url": "https://secure.aib.ru/login",
+    "url_hash": "de15d93642ff321f519881cb772e4efc681abc151f56330ae9f34c57eeb645c1",
+    "domain": "secure.aib.ru",
+    "verdict": "HIGH RISK",
+    "signals": [
+      "suspicious_tld",
+      "suspicious_keywords",
+      "url_obfuscation",
+      "brand_impersonation"
+    ],
+    "signal_details": [
+      {
+        "id": "suspicious_tld",
+        "severity": "high",
+        "description": "Domain uses a high-risk top-level domain"
+      },
+      {
+        "id": "suspicious_keywords",
+        "severity": "medium",
+        "description": "Phishing-related keywords found in URL"
+      },
+      {
+        "id": "url_obfuscation",
+        "severity": "high",
+        "description": "Obfuscation pattern detected (e.g. @ symbol or double slashes)"
+      },
+      {
+        "id": "brand_impersonation",
+        "severity": "high",
+        "description": "URL appears to imitate a known trusted brand"
+      }
+    ],
+    "is_https": true
   }
 ]
