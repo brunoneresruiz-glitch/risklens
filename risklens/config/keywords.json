@@ -1,0 +1,37 @@
+{
+    "suspicious_keywords":[
+        "login", "verify", "secure", "open", "account", "update",
+        "banking", "support", "confirm", "password", "singin", 
+        "Microsfot", "Mircosoft", "Micosoft", "Mikrosoft", 
+        "ebayisapi", "webscr", "cmd", "dispatch", "redirect", "checkout",
+        "session", "token", "auth", "validate", "recover", "unlock", "suspend",
+        "limited", "reactivate", "unusual", "activity", "alert", "notice", "urgent",
+        "immediately", "click", "access", "identify", "credential", "billing", 
+        "invoice", "payment", "refund", "prize", "winner", "free", "gift", "offer",
+        "bonus", "deal", "discount", "reset", "expire", "cancel", "blocked",
+        "resticted", "unusual-activity", "sing-in", "log-in", "customer-service",
+        "protect", "activate", "reset", "authorized"
+    ],
+    "suspicious_tlds":[
+        ".ru", ".tk", ".ml", ".ga", ".cf", ".gq", ".xyz", ".top", ".click",
+        ".link", ".work", ".date", ".reset", ".rest", ".zip", ".review", 
+        ".county", ".party", ".bonus", ". ", "stream", ".download", ".racing",
+        ".fun", ".online", ".site", ".website", ".space", ".host", ".cc", ".pw",
+        ".su", ".tu", ".jk"
+    ],
+    "suspicious_patterns":[
+        "@", "-login", "\\", "//", "-secure", "-verify", "-account", "-update",
+        "-support", "-banking", "-paypal", "-aib", "-amazon", "-apple", 
+        "-microsoft", "-google", "-revolut", "-boi"
+    ],
+    "trusted_domains": [ 
+    "google.com", "microsoft.com", "apple.com",
+    "paypal.com", "amazon.com", "facebook.com",
+    "instagram.com", "twitter.com", "linkedin.com",
+    "github.com", "stackoverflow.com", "wikipedia.org",
+    "netflix.com", "spotify.com", "adobe.com",
+    "dropbox.com", "icloud.com", "outlook.com",
+    "office.com", "live.com", "yahoo.com"
+  ]
+}
+    
